@@ -26,7 +26,7 @@
     },
     "autoload":          {
         "psr-4": {
-            "DreamFactory\\Platform\\Events\\": "src/"
+            "DreamFactory\\Platform\\Plugins\\Events\\": "src/"
         }
     },
     "minimum-stability": "dev",
