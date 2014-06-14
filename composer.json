@@ -1,0 +1,38 @@
+{
+    "name":              "dreamfactory/plugin-events",
+    "description":       "DreamFactory Services Platform(tm) Platform Event System Plugin",
+    "config":            {
+        "discard-changes": true
+    },
+    "homepage":          "http://www.dreamfactory.com/developers/",
+    "keywords":          ["dsp", "dsp-plugin", "event", "platform"],
+    "license":           ["Apache-2.0"],
+    "authors":           [
+        {
+            "name":  "Jerry Ablan",
+            "email": "jerryablan@dreamfactory.com"
+        },
+        {
+            "name":  "Lee Hicks",
+            "email": "leehicks@dreamfactory.com"
+        }
+    ],
+    "require":           {
+        "php":         ">=5.4.0",
+        "kisma/kisma": "~0.2.45@stable"
+    },
+    "require-dev":       {
+        "phpunit/phpunit": "~3.7@stable"
+    },
+    "autoload":          {
+        "psr-4": {
+            "DreamFactory\\Platform\\Events\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra":             {
+        "branch-alias": {
+            "dev-develop": "0.1.x-dev"
+        }
+    }
+}
