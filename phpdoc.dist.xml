@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+	<title>DSP Common Components</title>
+	<parser>
+		<default-package-name>DreamFactory\Common</default-package-name>
+		<target>build/doc</target>
+		<markers>
+			<item>TODO</item>
+			<item>FIXME</item>
+		</markers>
+	</parser>
+	<transformer>
+		<target>build/doc</target>
+	</transformer>
+	<files>
+		<directory>src/</directory>
+	</files>
+	<transformations>
+		<template name="responsive-twig" />
+	</transformations>
+</phpdoc>
